@@ -1,5 +1,5 @@
 ================
-Pycubed Mini
+PocketQube
 ================
 
-The new documentation destination for Pycubed Mini.
+The new documentation destination for PocketQube.
