@@ -11,3 +11,4 @@ Contents
    overview
    firmware
    api
+   hardware
