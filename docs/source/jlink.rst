@@ -1,9 +1,9 @@
-J-Link
+Flashing With J-Link
 ==========
 
 .. _Ubuntu:
 
-Using the J-Link on Ubuntu
+On Ubuntu
 ----------
 Download the J-Link DEB installer from `here <https://www.segger.com/downloads/jlink/>`_.
 Install by running the following command:
@@ -11,3 +11,5 @@ Install by running the following command:
 .. code-block:: console
 
     sudo dpkg -i path/to/jlink_package.deb
+
+To reflash the board run `JFlashSPI` to launch the GUI J-Link flashing software.
