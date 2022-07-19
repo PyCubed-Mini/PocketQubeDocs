@@ -18,11 +18,11 @@ To reflash the board run `JFlash` to launch the GUI J-Link flashing software.
 Flashing Pycubed-Mini V2
 ------------------------
 
-1. Connect pin 1 of the J-Link to pin1 one of the Pycubed-Mini V2 main board.
+#. Connect pin 1 of the J-Link to pin1 one of the Pycubed-Mini V2 main board.
 
 .. image:: jlink/pycubed-miniv2.jpg
     :width: 400px
 Pin 1 of the Pycubed-Mini v2 board is the top right pin in this image, right next to the white line.
-1. Set the board to `ATSAMD51J20A`
-1. Click `Target->Connect`
-1. "Failed to connect cannot connect to target"
+#. Set the board to `ATSAMD51J20A`
+#. Click `Target->Connect`
+#. "Failed to connect cannot connect to target"
