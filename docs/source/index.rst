@@ -12,3 +12,4 @@ Contents
    firmware
    api
    hardware
+   jlink
