@@ -1,6 +1,8 @@
 Flashing With J-Link (incomplete/incorrect)
 ====================
 
+Warning! This documentation is incomplete/incorrect.
+
 .. _Ubuntu Setup:
 .. _Flashing Pycubed-Mini V2:
 
