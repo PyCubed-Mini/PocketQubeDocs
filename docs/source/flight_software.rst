@@ -5,7 +5,7 @@ Flight Software
 
 Architecture
 ------------
-There are two ways to look at the software, the first is to think of it as a stack of layers.
+The flight software is a stack of layers, each of which (theoretically) could be swapped out for a different implementation.
 
 .. image:: flight_software/hamburger.svg
     :width: 400
