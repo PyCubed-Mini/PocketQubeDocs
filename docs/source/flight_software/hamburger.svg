@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.75187991"
-     inkscape:cx="-30.589991"
-     inkscape:cy="468.82487"
+     inkscape:zoom="3.676183"
+     inkscape:cx="424.62522"
+     inkscape:cy="330.09782"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -40,9 +40,10 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g61996">
+       id="g61996"
+       style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
       <rect
-         style="fill:#f07575;fill-opacity:1;stroke:#151515;stroke-width:1.41442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         style="fill:#f07575;fill-opacity:1;stroke:#151515;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect846-8"
          width="73.585587"
          height="30.585581"
@@ -50,21 +51,22 @@
          y="34.707207" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
          x="15.615237"
          y="54.473629"
          id="text42279"><tspan
            sodipodi:role="line"
            id="tspan42277"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'JetBrains Mono NL';-inkscape-font-specification:'JetBrains Mono NL, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'JetBrains Mono NL';-inkscape-font-specification:'JetBrains Mono NL, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
            x="15.615237"
            y="54.473629">Drivers</tspan></text>
     </g>
     <g
        id="g62001"
-       transform="translate(-1.0767942)">
+       transform="translate(-1.0767942)"
+       style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
       <rect
-         style="fill:#f07575;fill-opacity:1;stroke:#151515;stroke-width:1.41442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         style="fill:#f07575;fill-opacity:1;stroke:#151515;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect846-8-0"
          width="73.585587"
          height="30.585581"
@@ -72,13 +74,13 @@
          y="34.707211" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
          x="81.791641"
          y="54.473633"
          id="text48927"><tspan
            sodipodi:role="line"
            id="tspan48925"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'JetBrains Mono NL';-inkscape-font-specification:'JetBrains Mono NL, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'JetBrains Mono NL';-inkscape-font-specification:'JetBrains Mono NL, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
            x="81.791641"
            y="54.473633">Framework</tspan></text>
     </g>
