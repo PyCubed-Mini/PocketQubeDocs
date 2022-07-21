@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="drawing.svg"
+   sodipodi:docname="hamburger.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -38,28 +38,6 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <g
-       id="g62016">
-      <rect
-         style="fill:#f07575;fill-opacity:1;stroke:#151515;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-         id="rect846"
-         width="150"
-         height="30"
-         x="1"
-         y="1" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:15px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect846);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="130.2126"
-         y="4.8290753"
-         id="text17124"
-         transform="translate(0.29998856,6.0115909)"><tspan
-           x="26.500126"
-           y="14.465909"
-           id="tspan69332"><tspan
-             style="font-family:'JetBrains Mono NL';-inkscape-font-specification:'JetBrains Mono NL, Normal';text-align:center;text-anchor:middle"
-             id="tspan69330">Application</tspan></tspan></text>
-    </g>
     <g
        id="g61996">
       <rect
@@ -144,6 +122,27 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'JetBrains Mono NL';-inkscape-font-specification:'JetBrains Mono NL, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
            x="39.452148"
            y="123.59204">Hardware</tspan></text>
+    </g>
+    <g
+       id="g4013">
+      <rect
+         style="fill:#f07575;fill-opacity:1;stroke:#151515;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect846-8-3-3"
+         width="150"
+         height="30.000002"
+         x="1"
+         y="1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="26.800114"
+         y="20.477501"
+         id="text56485-0"><tspan
+           sodipodi:role="line"
+           id="tspan56483-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'JetBrains Mono NL';-inkscape-font-specification:'JetBrains Mono NL, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="26.800114"
+           y="20.477501">Application</tspan></text>
     </g>
   </g>
 </svg>
