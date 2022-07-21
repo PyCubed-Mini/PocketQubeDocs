@@ -13,3 +13,4 @@ Contents
    api
    hardware
    jlink
+   flight_software
