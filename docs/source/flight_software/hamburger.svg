@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="3.676183"
-     inkscape:cx="424.62522"
-     inkscape:cy="330.09782"
+     inkscape:zoom="1.5021831"
+     inkscape:cx="234.99132"
+     inkscape:cy="193.38521"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -41,7 +41,8 @@
      id="layer1">
     <g
        id="g61996"
-       style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+       style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0.99225414,0,0,0.98201738,0.29479944,0.89913406)">
       <rect
          style="fill:#f07575;fill-opacity:1;stroke:#151515;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect846-8"
@@ -63,7 +64,7 @@
     </g>
     <g
        id="g62001"
-       transform="translate(-1.0767942)"
+       transform="matrix(0.99225766,0,0,0.9820215,-0.18196229,0.89898092)"
        style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
       <rect
          style="fill:#f07575;fill-opacity:1;stroke:#151515;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
