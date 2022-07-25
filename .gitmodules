@@ -1,0 +1,3 @@
+[submodule "flight_software"]
+	path = flight_software
+	url = https://github.com/PyCubed-Mini/flight_software
