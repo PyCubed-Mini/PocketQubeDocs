@@ -1,5 +1,9 @@
 # Configuration file for the Sphinx documentation builder.
 
+# -- Path Setup
+import sys
+sys.path.insert('../../flight_software/state_machine/applications/flight/')
+
 # -- Project information
 
 project = 'Pycubed-Mini'
