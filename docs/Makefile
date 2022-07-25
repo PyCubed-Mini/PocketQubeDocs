@@ -5,7 +5,7 @@
 # from the environment for the first two.
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = state_machine
+SOURCEDIR     = flight_software/state_machine/applications/flight
 BUILDDIR      = state_machine/build
 
 # Put it first so that "make" without argument is like "make help".
