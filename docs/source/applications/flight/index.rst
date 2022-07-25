@@ -3,8 +3,8 @@ Flight Application
 
 Title
 -----
-Test test 123 test test
+Test test 123 test test function:
+.. autoclass:: lib.naive.NaiveMessage
 
-..autoclass:: lib.naive.NaiveMessage
-
-..autofunction:: lib.priority_queue.push
+something else function:
+.. autofunction:: lib.priority_queue.push
