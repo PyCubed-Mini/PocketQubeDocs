@@ -10,7 +10,6 @@ Contents
 
    overview
    firmware
-   api
    hardware
    jlink
    flight_software

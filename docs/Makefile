@@ -3,10 +3,10 @@
 
 # You can set these variables from the command line, and also
 # from the environment for the first two.
-SPHINXOPTS    ?=
+SPHINXOPTS    ?= -c source/
 SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = flight_software/state_machine/applications/flight/
-BUILDDIR      = state_machine/build
+SOURCEDIR     = source
+BUILDDIR      = ../build
 
 # Put it first so that "make" without argument is like "make help".
 help:
