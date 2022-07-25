@@ -1,5 +1,5 @@
 Building firmware
-====
+=================
 
 .. _Dependencies:
 .. _Building:
