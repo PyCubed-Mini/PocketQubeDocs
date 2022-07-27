@@ -1,0 +1,55 @@
+digraph {
+    "MEKF" [shape=rect]
+    "sun_vector" [shape=rect]
+    "IGRF" [shape=rect]
+    "orbit_propogation" [shape=rect]
+    "NED->ECEF" [shape=rect]
+    "ECEF->ECI" [shape=rect]
+    "ECI->ECEF" [shape=rect]
+    "ECEF->GEOC" [shape=rect]
+    
+    "time" [shape=diamond]
+    "Gyro" [shape=diamond]
+    "Magnetometer" [shape=diamond]
+    "Sun Sensors" [shape=diamond]
+
+    "ω'=ω-β" [color=green]
+    "β" [color=green]
+    "δt"
+    "ω"
+    "br_mag"
+    "br_sun"
+    "nr_mag"
+    "nr_sun"
+    "t"
+    "ned r_mag"
+    "nr"
+
+    "Gyro"->"ω" 
+    "ω"->"ω'=ω-β"
+    "MEKF"->"β"
+    "β"->"ω'=ω-β"
+    "ω'=ω-β"->"MEKF"
+    "time"->"δt"
+    "δt"->"MEKF"
+    "Magnetometer"->"br_mag"
+    "br_mag"->"MEKF"
+    "time"->"t"
+    "Sun Sensors"->"br_sun"
+    "br_sun"->"MEKF"
+    "nr_mag"->"MEKF"
+    "nr_sun"->"MEKF"
+    "sun_vector"->"nr_sun"
+    "t"->"sun_vector"
+    "IGRF"->"ned r_mag"
+    "ned r_mag"->"NED->ECEF"
+    "NED->ECEF"->"ECEF->ECI"
+    "t"->"ECEF->ECI"
+    "ECEF->ECI"->"nr_mag"
+
+    "t"->"orbit_propogation"
+    "orbit_propogation"->"nr"
+    "nr"->"ECI->ECEF"
+    "ECI->ECEF"->"ECEF->GEOC"
+    "ECEF->GEOC"->"IGRF"
+}

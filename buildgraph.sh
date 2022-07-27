@@ -1,0 +1,1 @@
+dot -Tpng mekfgraph.dot > mekfgraph.png
