@@ -1,8 +1,8 @@
 digraph {
     "MEKF" [shape=rect]
-    "sun_vector" [shape=rect]
+    "sun_vector" [shape=rect, style=dashed]
     "IGRF" [shape=rect]
-    "orbit_propogation" [shape=rect]
+    "orbit_propogation" [shape=rect, style=dashed]
     "NED->ECEF" [shape=rect]
     "ECEF->ECI" [shape=rect]
     "ECI->ECEF" [shape=rect]
@@ -25,20 +25,17 @@ digraph {
     "ned r_mag"
     "nr"
 
+    "UplinkedData" [shape=pentagon, color=red, style=dotted]
+
     "Gyro"->"ω" 
     "ω"->"ω'=ω-β"
     "MEKF"->"β"
     "β"->"ω'=ω-β"
     "ω'=ω-β"->"MEKF"
     "time"->"δt"
-    "δt"->"MEKF"
-    "Magnetometer"->"br_mag"
-    "br_mag"->"MEKF"
+    "Magnetometer"->"br_mag" [style=dotted]
     "time"->"t"
-    "Sun Sensors"->"br_sun"
-    "br_sun"->"MEKF"
-    "nr_mag"->"MEKF"
-    "nr_sun"->"MEKF"
+    "Sun Sensors"->"br_sun" [style=dotted]
     "sun_vector"->"nr_sun"
     "t"->"sun_vector"
     "IGRF"->"ned r_mag"
@@ -52,4 +49,12 @@ digraph {
     "nr"->"ECI->ECEF"
     "ECI->ECEF"->"ECEF->GEOC"
     "ECEF->GEOC"->"IGRF"
+    "UplinkedData"->"orbit_propogation" [style=dotted]
+    "UplinkedData"->"time" [style=dotted]
+
+    "br_mag"->"MEKF" [style=dotted]
+    "δt"->"MEKF" [style=dotted]
+    "br_sun"->"MEKF" [style=dotted]
+    "nr_mag"->"MEKF" [style=dotted]
+    "nr_sun"->"MEKF" [style=dotted]
 }
