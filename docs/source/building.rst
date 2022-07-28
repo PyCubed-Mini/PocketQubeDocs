@@ -1,11 +1,11 @@
-Overview
-========
+Building Flight Software
+========================
 
-.. _Explanation:
+.. _Structure:
 .. _Dependencies:
 .. _Building:
 
-Explanation
+Structure
 ------------
 The folder `frame/` contains the `main.py` (entry point for our software) and a custom state machine implementation.
 This code is minimal enough that no changes should be required regardless of if you are targeting pycubedmini, pycubed, or emulating hardware.
@@ -31,8 +31,14 @@ ImageMagick and graphviz are used to create a state machine diagram along with y
 Building
 ------------
 
-To build the flight software you run `sh build.sh {driver} {application}`.
-The `{driver}` is the part of the software that interfaces with the hardware (or emulates it).
-The `{application}` is what the software attempts to achieve the mission objective (by utilizing the driver to communicate with the hardware).
+To build the flight software you run
+
+.. code-block:: console
+
+   $ sh build.sh {driver} {application}
+
+* The `{driver}` is the part of the software that interfaces with the hardware (or emulates it).
+* The `{application}` is what the software attempts to achieve the mission objective (by utilizing the driver to communicate with the hardware).
+
 This allows us to easily test and develop flight software localy by emulating the hardware.
 
