@@ -15,6 +15,7 @@ digraph {
 
     "ω'=ω-β" [color=green]
     "β" [color=green]
+    "q" [color=green]
     "δt"
     "ω"
     "br_mag"
@@ -31,7 +32,7 @@ digraph {
     "ω"->"ω'=ω-β"
     "MEKF"->"β"
     "β"->"ω'=ω-β"
-    "ω'=ω-β"->"MEKF"
+    "ω"->"MEKF"
     "time"->"δt"
     "Magnetometer"->"br_mag" [style=dotted]
     "time"->"t"
@@ -52,6 +53,7 @@ digraph {
     "ECEF->GEOC"->"IGRF"
     "UplinkedData"->"orbit_propogation" [style=dotted]
     "UplinkedData"->"time" [style=dotted]
+    "MEKF"->"q"
 
     "br_mag"->"MEKF" [style=dotted]
     "δt"->"MEKF" [style=dotted]
