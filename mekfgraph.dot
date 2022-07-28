@@ -42,6 +42,7 @@ digraph {
     "ned r_mag"->"NED->ECEF"
     "NED->ECEF"->"ECEF->ECI"
     "t"->"ECEF->ECI"
+    "t"->"ECI->ECEF"
     "ECEF->ECI"->"nr_mag"
 
     "t"->"orbit_propogation"
