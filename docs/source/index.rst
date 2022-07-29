@@ -3,13 +3,28 @@ Pycubed-Mini Docs
 
 Pycubed-Mini is a fork of the `PyCubed <https://pycubed.org/>`_ project.
 
-Contents
+Overview
 --------
 
 .. toctree::
+   :caption: Overview
 
-   overview
-   firmware
+   overview/software_arch
+   building
    hardware
+
+Applications
+------------
+
+.. toctree::
+   :caption: Applications
+
+   applications/flight/index
+
+Misc
+----
+.. toctree::
+   :caption: Misc
+
+   firmware
    jlink
-   flight_software

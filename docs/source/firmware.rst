@@ -1,4 +1,4 @@
-Building firmware
+Building Firmware
 =================
 
 .. _Dependencies:
