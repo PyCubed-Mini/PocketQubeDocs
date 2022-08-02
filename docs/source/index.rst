@@ -9,10 +9,11 @@ Overview
 .. toctree::
    :caption: Overview
 
-   overview/software_arch
    building
-   hardware
+   overview/software_arch
    overview/frame
+   overview/firmware
+   hardware
 
 Applications
 ------------
