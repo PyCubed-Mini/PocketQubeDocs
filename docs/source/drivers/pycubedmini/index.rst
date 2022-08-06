@@ -96,7 +96,7 @@ Miscellaneous Interface Functions
 HardwareInitException
 ***********************
 
-raised when initializing a piece of hardware on the cubesat fails
+    raised when initializing a piece of hardware on the cubesat fails
 
 class _Satellite
 ***********************
