@@ -2,7 +2,8 @@
 
 # -- Path Setup
 import sys
-sys.path.insert(0, '../flight_software/state_machine/applications/flight/')
+import os
+sys.path.insert(0, os.path.abspath('../flight_software/state_machine/applications/flight/'))
 
 # -- Project information
 
