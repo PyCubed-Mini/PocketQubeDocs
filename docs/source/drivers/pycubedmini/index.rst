@@ -7,7 +7,7 @@ PyCubed.py
 Hardware Decorator Class
 *************************
     Modified @hardware decorator.
-    Based on the code from (here)[https://docs.python.org/3/howto/descriptor.html#properties]
+    Based on the code from `here <https://docs.python.org/3/howto/descriptor.html#properties>`_.
     Attempts to return the appropriate hardware device.
     If this fails, it will attempt to reinitialize the hardware.
     If this fails again, it will raise an exception.
