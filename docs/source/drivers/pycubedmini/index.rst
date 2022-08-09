@@ -376,3 +376,13 @@ internal to the driver file
     return Burnwire2 object and init function
     
     :param self: instance variable
+
+_cubesat Object
+****************
+singleton instance of the _Satellite class
+internal to the driver file
+
+User-Side Hardware and Constant Accessors
+*****************************************
+make sd card, radio and microcontroller accessible to users
+make the BOOTTIME constant accessible to users
