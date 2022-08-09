@@ -253,3 +253,126 @@ internal to the driver file
     
     :param self: instance variable
 
+.. py:function:: i2c3(self)
+    
+    @hardware
+    return I2C3 bus and init function
+    
+    :param self: instance variable
+
+.. py:function:: spi(self)
+    
+    @hardware
+    return SPI bus and init function
+    
+    :param self: instance variable
+
+.. py:function:: sd(self)
+    
+    @hardware
+    return SD Card object and init function
+    
+    :param self: instance variable
+
+.. py:function:: neopixel(self)
+    
+    @hardware
+    return neopixel and init function
+    
+    :param self: instance variable
+
+.. py:function:: imu(self)
+    
+    @hardware
+    return IMU object and init function
+    
+    :param self: instance variable
+
+.. py:function:: radio(self)
+    
+    @hardware
+    return radio and init function
+    
+    :param self: instance variable
+
+.. py:function:: sun_yn(self)
+    
+    @hardware
+    return Sun Sensor -Y and init function
+    
+    :param self: instance variable
+
+
+.. py:function:: sun_zn(self)
+    
+    @hardware
+    return Sun Sensor -Z and init function
+    
+    :param self: instance variable
+
+
+.. py:function:: sun_xn(self)
+    
+    @hardware
+    return Sun Sensor -X and init function
+    
+    :param self: instance variable
+
+.. py:function:: sun_yp(self)
+    
+    @hardware
+    return Sun Sensor +Y and init function
+    
+    :param self: instance variable
+
+
+.. py:function:: sun_zp(self)
+    
+    @hardware
+    return Sun Sensor +Z and init function
+    
+    :param self: instance variable
+
+
+.. py:function:: sun_xp(self)
+    
+    @hardware
+    return Sun Sensor +X and init function
+    
+    :param self: instance variable
+
+
+.. py:function:: drv_x(self)
+    
+    @hardware
+    return Coil Driver X and init function
+    
+    :param self: instance variable
+
+.. py:function:: drv_y(self)
+    
+    @hardware
+    return Coil Driver Y and init function
+    
+    :param self: instance variable
+
+.. py:function:: drv_z(self)
+    
+    @hardware
+    return Coil Driver Z and init function
+    
+    :param self: instance variable
+    
+.. py:function:: burnwire1(self)
+    
+    @hardware
+    return Burnwire1 object and init function
+    
+    :param self: instance variable
+    
+.. py:function:: burnwire2(self)
+    
+    @hardware
+    return Burnwire2 object and init function
+    
+    :param self: instance variable
