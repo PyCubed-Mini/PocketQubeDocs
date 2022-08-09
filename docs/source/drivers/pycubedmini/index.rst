@@ -4,6 +4,15 @@ Pycubed-Mini Drivers
 PyCubed.py
 ----------
 
+Hardware Decorator Class
+*************************
+    Modified @hardware decorator.
+    Based on the code from (here)[https://docs.python.org/3/howto/descriptor.html#properties]
+    Attempts to return the appropriate hardware device.
+    If this fails, it will attempt to reinitialize the hardware.
+    If this fails again, it will raise an exception.
+
+
 IMU Interface Functions
 ***********************
 
@@ -227,6 +236,18 @@ internal to the driver file
 .. py:function:: _init_burnwire2(self)
     
     initialize Burnwire2 on PA18 (BURN2)
+    
+    :param self: instance variable
+
+.. py:function:: @hardware i2c1(self)
+
+    return I2C1 bus and init function
+    
+    :param self: instance variable
+
+.. py:function:: @hardware i2c2(self)
+
+    return I2C2 bus and init function
     
     :param self: instance variable
 
