@@ -239,16 +239,16 @@ internal to the driver file
     
     :param self: instance variable
 
-@hardware
 .. py:function:: i2c1(self)
 
+    @hardware
     return I2C1 bus and init function
     
     :param self: instance variable
 
-@hardware
 .. py:function:: i2c2(self)
-
+    
+    @hardware
     return I2C2 bus and init function
     
     :param self: instance variable
