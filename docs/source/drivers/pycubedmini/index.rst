@@ -111,6 +111,9 @@ class _Satellite
 ***********************
 
 internal to the driver file
+define NVM register numbers
+define vlowbatt constant
+maintain a data_cache
     
 .. py:function:: __new__(cls)
     
