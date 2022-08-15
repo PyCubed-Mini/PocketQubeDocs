@@ -5,7 +5,8 @@
 
 ## Building the new docs
 
-In the `docs/` folder, run make html.
+In the `docs/` folder, run `make html`.
+If things aren't working running `make clean` (in the same folder) is often a good idea.
 
 ## Viewing the new docs
 
