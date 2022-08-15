@@ -2,9 +2,10 @@
 
 # -- Path Setup
 import sys
-sys.path.insert(0, '../flight_software/state_machine/applications/flight/')
-sys.path.insert(0, '../flight_software/state_machine/frame')
-sys.path.insert(0, '../flight_software/state_machine/drivers/emulation')
+import os
+sys.path.insert(0, os.path.abspath('../../flight_software/state_machine/applications/flight/'))
+sys.path.insert(0, os.path.abspath('../../flight_software/state_machine/frame/'))
+sys.path.insert(0, os.path.abspath('../../flight_software/state_machine/drivers/emulation'))
 
 # -- Project information
 
@@ -23,6 +24,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.viewcode',
 ]
 
 intersphinx_mapping = {
@@ -32,6 +34,8 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+
+autodoc_mock_imports = ["lib.pycubed"]
 
 # -- Options for HTML output
 
