@@ -21,7 +21,12 @@ Applications
 .. toctree::
    :caption: Applications
 
-   applications/flight/index
+   applications/flight
+
+.. toctree::
+   :caption: Drivers
+
+   drivers/pycubedmini/index
 
 Misc
 ----
