@@ -11,7 +11,7 @@ Overview
 
    overview/software_arch
    building
-   hardware
+   hardware/index
 
 Applications
 ------------
