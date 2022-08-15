@@ -1,8 +1,8 @@
 Flight Application
 ==================
 
-Transmission
-------------
+Transmission libraries
+----------------------
 
 Message
 *******
@@ -20,8 +20,8 @@ Priority Queue
 .. automodule:: lib.priority_queue
     :members:
 
-Guidance, navigation, and control
----------------------------------
+Guidance, navigation, and control libraries
+-------------------------------------------
 
 Control 
 *******
@@ -51,3 +51,12 @@ Sun Position
 ************
 .. automodule:: lib.sun_position
     :members:
+
+Tasks
+-----
+
+Safety Task
+***********
+.. autoclass:: Tasks.safety.task
+    :members:
+    :show-inheritance:

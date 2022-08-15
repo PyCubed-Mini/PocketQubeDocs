@@ -4,6 +4,7 @@
 import sys
 import os
 sys.path.insert(0, os.path.abspath('../../flight_software/state_machine/applications/flight/'))
+sys.path.insert(0, os.path.abspath('../../flight_software/state_machine/frame/'))
 
 # -- Project information
 
@@ -31,6 +32,8 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+
+autodoc_mock_imports = ["lib.pycubed"]
 
 # -- Options for HTML output
 
