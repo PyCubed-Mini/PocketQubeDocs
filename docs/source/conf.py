@@ -5,6 +5,7 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath('../../flight_software/state_machine/applications/flight/'))
 sys.path.insert(0, os.path.abspath('../../flight_software/state_machine/frame/'))
+sys.path.insert(0, os.path.abspath('../../flight_software/state_machine/drivers/emulation'))
 
 # -- Project information
 
