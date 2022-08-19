@@ -12,6 +12,7 @@ Overview
    overview/software_arch
    building
    hardware/index
+   overview/frame
 
 Applications
 ------------

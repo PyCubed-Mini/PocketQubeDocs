@@ -2,7 +2,7 @@ Flight Application
 ==================
 
 Transmission libraries
-------------
+----------------------
 
 Message
 *******
@@ -21,7 +21,7 @@ Priority Queue
     :members:
 
 Guidance, navigation, and control libraries
----------------------------------
+-------------------------------------------
 
 Control 
 *******
@@ -57,5 +57,6 @@ Tasks
 
 Safety Task
 ***********
-.. automodule:: Tasks.safety.task
+.. autoclass:: Tasks.safety.task
     :members:
+    :show-inheritance:
