@@ -3,8 +3,12 @@
 # -- Path Setup
 import sys
 import os
-sys.path.insert(0, os.path.abspath('../../flight_software/state_machine/applications/flight/'))
-sys.path.insert(0, os.path.abspath('../../flight_software/state_machine/frame/'))
+sys.path.insert(0, os.path.abspath(
+    '../../flight_software/state_machine/applications/flight/'))
+sys.path.insert(0, os.path.abspath(
+    '../../flight_software/state_machine/frame/'))
+sys.path.insert(0, os.path.abspath(
+    '../../flight_software/state_machine/drivers/pycubedmini/lib/'))
 
 # -- Project information
 
@@ -34,7 +38,16 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
-autodoc_mock_imports = ["lib.pycubed"]
+autodoc_mock_imports = ["lib.pycubed",
+                        "sdcardio",
+                        "pycubed_rfm9x",
+                        "storage",
+                        "neopixel",
+                        "adafruit_register",
+                        "ulab",
+                        "analogio",
+                        "board"
+                        ]
 
 # -- Options for HTML output
 
