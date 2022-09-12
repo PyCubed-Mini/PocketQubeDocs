@@ -1,9 +1,6 @@
 Pycubed-Mini Drivers
 ====================
 
-Autodoc test
-------------
-
 .. automodule:: pycubed
     :members:
 
