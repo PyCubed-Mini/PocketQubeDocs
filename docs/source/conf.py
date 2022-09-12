@@ -43,7 +43,16 @@ autodoc_mock_imports = ["lib.pycubed",
                         "adafruit_register",
                         "ulab",
                         "analogio",
-                        "board"
+                        "board",
+                        "microcontroller",
+                        "StateMachineConfig",
+                        "busio",
+                        "digitalio",
+                        "pwmio",
+                        "adafruit_bus_device",
+                        "micropython",
+                        "bmx160",
+                        "lib.frames"
                         ]
 
 # -- Options for HTML output
