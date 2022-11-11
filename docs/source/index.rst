@@ -11,7 +11,8 @@ Overview
 
    overview/software_arch
    building
-   hardware
+   hardware/index
+   overview/frame
 
 Applications
 ------------
@@ -19,7 +20,12 @@ Applications
 .. toctree::
    :caption: Applications
 
-   applications/flight/index
+   applications/flight
+
+.. toctree::
+   :caption: Drivers
+
+   drivers/pycubedmini/index
 
 Misc
 ----
