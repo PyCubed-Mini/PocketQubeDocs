@@ -73,31 +73,31 @@ Beacon Task
     :show-inheritance:
 
 Blink Task
-***********
+**********
 .. automodule:: Tasks.blink_task
     :members:
     :show-inheritance:
 
 Deployment Manager Task
-***********
+***********************
 .. automodule:: Tasks.deployment_manager
     :members:
     :show-inheritance:
 
 GNC Task
-***********
+********
 .. automodule:: Tasks.gnc
     :members:
     :show-inheritance:
 
 IMU Task
-***********
+********
 .. automodule:: Tasks.imu_task
     :members:
     :show-inheritance:
 
 Radio Task
-***********
+**********
 .. automodule:: Tasks.radio
     :members:
     :show-inheritance:
@@ -109,7 +109,7 @@ Safety Task
     :show-inheritance:
 
 Time Task
-***********
+*********
 .. automodule:: Tasks.time_task
     :members:
     :show-inheritance:
