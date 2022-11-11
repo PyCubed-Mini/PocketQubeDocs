@@ -6,7 +6,7 @@ Transmission libraries
 
 Commands
 ********
-.. automodule:: radio_utils.commands
+.. automodule:: lib.radio_utils.commands
    :members:
 
 Message
