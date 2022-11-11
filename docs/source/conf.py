@@ -24,6 +24,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx-favicon',
     'sphinx.ext.viewcode',
 ]
 
@@ -61,3 +62,14 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# -- Favicons
+html_static_path = ['_static']
+favicons = [
+    'favicon-16x16.png',
+    'favicon-32x32.png',
+    'favicon.ico',
+    'apple-touch-icon.png',
+    'android-chrome-192x192.png',
+    'android-chrome-512x512.png',
+]
