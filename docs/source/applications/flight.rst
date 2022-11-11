@@ -4,52 +4,63 @@ Flight Application
 Transmission libraries
 ----------------------
 
+Commands
+********
+.. automodule:: radio_utils.commands
+   :members:
+
 Message
 *******
-.. autoclass:: lib.message.Message
+.. automodule:: radio_utils.message
    :members:
 
 NaiveMessage
 ************
-.. autoclass:: lib.naive.NaiveMessage
+.. automodule:: radio_utils.naive
    :members:
    :show-inheritance:
 
+Chunk Message
+*************
+.. automodule:: radio_utils.chunk
+    :members:
+    :show-inheritance:
+
 Priority Queue
 **************
-.. automodule:: lib.priority_queue
+.. automodule:: radio_utils.priority_queue
     :members:
 
-Guidance, navigation, and control libraries
+Guidance, navigation, and control aries
 -------------------------------------------
 
 Control 
 *******
-.. autofunction:: lib.control.bcross
+.. autofunction:: control.bcross
 
 Frames
 ******
-.. automodule:: lib.frames
+.. automodule:: frames
     :members:
 
 Mathutils
 *********
-.. automodule:: lib.mathutils
+.. automodule:: mathutils
     :members:
    
 MEKF
 ****
-.. automodule:: lib.mekf
+.. automodule:: mekf
     :members:
 
 Orbital Mechanics
 *****************
-.. automodule:: lib.orbital_mechanics
+.. automodule:: orbital_mechanics
     :members:
 
 Sun Position
 ************
-.. automodule:: lib.sun_position
+.. automodule:: sun_position
     :members:
 
 Tasks
