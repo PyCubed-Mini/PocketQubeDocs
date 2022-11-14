@@ -1,7 +1,7 @@
 Flight Application
 ==================
 
-Transmission libraries
+Radio RX/TX
 ----------------------
 
 Commands
@@ -9,26 +9,22 @@ Commands
 .. automodule:: radio_utils.commands
    :members:
 
-Message
-*******
+Message Classes
+***************
 .. automodule:: radio_utils.message
    :members:
 
-NaiveMessage
-************
 .. automodule:: radio_utils.naive
    :members:
    :show-inheritance:
 
-Chunk Message
-*************
 .. automodule:: radio_utils.chunk
     :members:
     :show-inheritance:
 
-Priority Queue
-**************
-.. automodule:: radio_utils.priority_queue
+Transmission Queue
+******************
+.. automodule:: radio_utils.transmission_queue
     :members:
 
 Guidance, navigation, and control aries
